@@ -12,7 +12,7 @@ package com.test.intro;
 
 //gejgiejgjeg
 public class Student {
-
+  
 	public static void main(String[] args) {
 		
 		int number1=10; //this is integer number1

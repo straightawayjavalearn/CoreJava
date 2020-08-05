@@ -3,7 +3,7 @@ package com.test.methods;
 class Addition {
 	int sum = 0;
 
-	public int additionFunction(int operand1, int operand2) {
+	int additionFunction(int operand1, int operand2) {
 		// adding integer values
 		sum = operand1 + operand2;
 		return sum;
