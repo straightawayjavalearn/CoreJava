@@ -1,7 +1,7 @@
 package com.test.statickeyword;
 
 class Employee {
-	int empId;
+	int empId; //instance variables
 	String empName;
 	static String companyName = "TCS";
 
@@ -11,7 +11,7 @@ class Employee {
 		empName = name;
 	}
 
-	// method to display values
+	// method instance method to display values 
 	void display() {
 		System.out.println(empId + " " + empName + " " + companyName);
 	}
