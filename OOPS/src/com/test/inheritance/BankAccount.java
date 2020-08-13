@@ -1,9 +1,11 @@
 package com.test.inheritance;
 //tight coupling and loose coupling 
+
 interface Creditcard {
-	 public void dollar() ;
-	public void Ruppes() ;
- public void Pounds() ;
+       int D=4; //attribute  always public, static and final by default
+	 public void dollar() ; // methods are by default abstract and public
+	 public void Ruppes() ;
+     public void Pounds() ;
 	
 }
 
@@ -15,6 +17,7 @@ interface Creditcard {
 	public static void main(String args[]) {
 		BankAccount obj = new BankAccount();
 		obj.dollar();
+
 	}
 
 	@Override
