@@ -2,10 +2,11 @@ package com.test.StringClassDemo;
 
 class Testimmutablestring {
 	public static void main(String args[]) {
-	    StringBuffer sbuf = new StringBuffer("DataFlair");
-		String s = "Sachin";
-		s.concat(" Tendulkar");// concat() method appends the string at the end
-		System.out.println(s);// will print Sachin because strings are immutable objects (here two objects
+	    String s1;
+		String s = "Sachin"; 
+		s1=s.concat(" Tendulkar");// concat() method appends the string at the end
+		System.out.println(s);
+		System.out.println(s1);// will print Sachin because strings are immutable objects (here two objects
 								// created)
 	}
 }
@@ -21,3 +22,8 @@ class Testimmutablestring {
  * it will be affected to all the reference variables.
  *  That is why string objects are immutable in java.
  * */
+
+
+
+
+
