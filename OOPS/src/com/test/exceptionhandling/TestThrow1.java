@@ -12,9 +12,12 @@ public class TestThrow1{
 	   }  
 	   public static void main(String args[]){ 
 		  
-		   
+		   try {
 	      validate(16);  
-	      
+		   }
+		   catch(Exception e) {
+			   System.out.println(e.getStackTrace());
+		   }
 	      
 	      System.out.println("rest of the code...");  
 	  }  
