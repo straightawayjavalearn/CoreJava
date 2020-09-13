@@ -23,6 +23,8 @@ public class MultilevelInheritance {
 	public static void main(String args[]) {
 
 		Apple obj = new Apple();
+	
+		
 		obj.fruitname();
 		obj.taste();
 		obj.tasteofApple();
